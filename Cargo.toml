@@ -1,0 +1,7 @@
+
+[workspace]
+members = [
+  "_1_两数之和",
+  "_9_回文数",
+  "mytest"
+]
