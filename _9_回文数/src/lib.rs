@@ -16,5 +16,5 @@ impl Solution {
     }
 }
 
-// TODO: find a new solution
+// TODO: it's too slow. find a new solution
 // @lc code=end
