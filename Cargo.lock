@@ -11,6 +11,14 @@ name = "_1_两数之和"
 version = "0.1.0"
 
 [[package]]
+name = "_20_有效的括号"
+version = "0.1.0"
+
+[[package]]
+name = "_3_无重复字符的最长子串"
+version = "0.1.0"
+
+[[package]]
 name = "_9_回文数"
 version = "0.1.0"
 
