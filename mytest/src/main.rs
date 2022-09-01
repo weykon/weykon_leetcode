@@ -1,9 +1,16 @@
 fn main() {
-    println!("Hello, my test!");
-    let s =    String::from("123");
-    let b = s.as_bytes();
 
-    for u in b {
-        println!("{}",u)
+    // ----block----
+    println!("Hello, my test!");
+    
+    let s = String::from("asd");
+
+    let chars = s.chars();
+
+    for c in chars {
+        println!("{}", c)
     }
+
+
+
 }
