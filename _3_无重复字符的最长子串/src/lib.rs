@@ -4,40 +4,26 @@
  * [3] 无重复字符的最长子串
  */
 pub struct Solution;
+mod main2;
 // @lc code=start
 impl Solution {
     pub fn length_of_longest_substring(s: String) -> i32 {
-        use std::collections::HashMap;
-        let phase: HashMap<char, usize> = HashMap::new();
+        let mut positions = [0; 128];
+        let (mut max_len, mut left) = (0, 1);
 
-        let mut re_run_index:usize = 0;
-        let steps = s.chars().take(re_run_index).enumerate();
-        let all = s.chars().enumerate();
-
-        loop {
-            match all.next(){
-                None => {break;}
-                Some(x) => {
-                    match steps.next() {
-                        None => {all.next();}
-                        Some(y) => {
-                            match phase.get(&y.1) {
-                                Some(i) => {
-                                    re_run_index = y.0 + 1;
-                                    phase.insert(y.1, y.0);  
-                                    all.next();
-                                },
-                                _ => {
-                                    phase.insert(y.1, y.0);  
-                                },
-                            }
-                        }
-                    }
-                   
-                }  
+        for (b, i) in s.bytes().zip(1..) {
+            let right = &mut positions[(b - b' ') as usize];
+            match *right {
+                0 => *right = i,
+                _ => {
+                    max_len = max_len.max(i - left);
+                    left = left.max (*right + 1);
+                    *right = i;
+                }   
             }
-           phase.len();
         }
+
+        max_len.max(s.len() as i32 - left + 1 )
     }
 }
 // @lc code=end
@@ -47,3 +33,4 @@ impl Solution {
 // "pwwkew"
 // "wppcaspcads"
 // "wpwaapadcjiurt"
+// "waduppaskjd"
