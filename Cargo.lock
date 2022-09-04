@@ -3,6 +3,10 @@
 version = 3
 
 [[package]]
+name = "_104_二叉树的最大深度"
+version = "0.1.0"
+
+[[package]]
 name = "_136_只出现一次的数字"
 version = "0.1.0"
 
