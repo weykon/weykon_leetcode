@@ -3,7 +3,7 @@
  *
  * [66] 加一
  */
-
+pub struct Solution;
 // @lc code=start
 impl Solution {
     pub fn plus_one(digits: Vec<i32>) -> Vec<i32> {

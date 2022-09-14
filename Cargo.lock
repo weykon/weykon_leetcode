@@ -3,10 +3,6 @@
 version = 3
 
 [[package]]
-name = "_104_二叉树的最大深度"
-version = "0.1.0"
-
-[[package]]
 name = "_136_只出现一次的数字"
 version = "0.1.0"
 
@@ -19,11 +15,19 @@ name = "_1_两数之和"
 version = "0.1.0"
 
 [[package]]
+name = "_200_岛屿数量"
+version = "0.1.0"
+
+[[package]]
 name = "_20_有效的括号"
 version = "0.1.0"
 
 [[package]]
 name = "_3_无重复字符的最长子串"
+version = "0.1.0"
+
+[[package]]
+name = "_66_加一"
 version = "0.1.0"
 
 [[package]]
