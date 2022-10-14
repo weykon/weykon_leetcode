@@ -27,7 +27,15 @@ name = "_283_移动零"
 version = "0.1.0"
 
 [[package]]
+name = "_344_反转字符串"
+version = "0.1.0"
+
+[[package]]
 name = "_3_无重复字符的最长子串"
+version = "0.1.0"
+
+[[package]]
+name = "_441_排列硬币"
 version = "0.1.0"
 
 [[package]]
