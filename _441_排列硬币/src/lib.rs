@@ -4,6 +4,7 @@
  * [441] 排列硬币
  */
 
+pub struct Solution;
 // @lc code=start
 impl Solution {
     pub fn arrange_coins(n: i32) -> i32 {
