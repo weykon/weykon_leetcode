@@ -12,3 +12,6 @@ impl Solution {
     }
 }
 // @lc code=end
+
+// 算式解
+// https://leetcode.cn/problems/arranging-coins/solution/lai-zi-bei-da-suan-fa-ke-de-leetcodeti-j-6ycy/

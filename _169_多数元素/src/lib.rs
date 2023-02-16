@@ -9,18 +9,18 @@ impl Solution {
     pub fn majority_element(nums: Vec<i32>) -> i32 {
         let mut map: std::collections::HashMap<i32, i32> = std::collections::HashMap::new();
         for num in nums.iter() {
-            let value = map.entry(*num).or_insert(0);
-            *value += 1;
+            let count = map.entry(*num).or_insert(0);
+            *count += 1;
         }
-        let mut k: i32 = 0;
-        let mut v: i32 = -1;
-        for (&key, &value) in map.iter() {
-            if value > v {
-                k = key;
-                v = value;
+        let mut max_count = 0;
+        let mut num = -1;
+        for (k, v) in map.iter() {
+            if *v > max_count { 
+                max_count = *v;
+                num = *k;
             }
         }
-        return k;
+        num
     }
 }
 // @lc code=end
