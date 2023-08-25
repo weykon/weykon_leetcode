@@ -51,6 +51,10 @@ name = "_21_合并两个有序链表"
 version = "0.1.0"
 
 [[package]]
+name = "_26_删除有序数组中的重复项"
+version = "0.1.0"
+
+[[package]]
 name = "_283_移动零"
 version = "0.1.0"
 
@@ -88,6 +92,10 @@ version = "0.1.0"
 
 [[package]]
 name = "_690_员工的重要性"
+version = "0.1.0"
+
+[[package]]
+name = "_70_爬楼梯"
 version = "0.1.0"
 
 [[package]]
