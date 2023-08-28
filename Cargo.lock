@@ -7,6 +7,10 @@ name = "_100_相同的树"
 version = "0.1.0"
 
 [[package]]
+name = "_101_对称二叉树"
+version = "0.1.0"
+
+[[package]]
 name = "_104_二叉树的最大深度"
 version = "0.1.0"
 
@@ -92,6 +96,10 @@ version = "0.1.0"
 
 [[package]]
 name = "_66_加一"
+version = "0.1.0"
+
+[[package]]
+name = "_67_二进制求和"
 version = "0.1.0"
 
 [[package]]
