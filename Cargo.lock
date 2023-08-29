@@ -107,7 +107,19 @@ name = "_690_员工的重要性"
 version = "0.1.0"
 
 [[package]]
+name = "_69_x_的平方根"
+version = "0.1.0"
+
+[[package]]
 name = "_70_爬楼梯"
+version = "0.1.0"
+
+[[package]]
+name = "_83_删除排序链表中的重复元素"
+version = "0.1.0"
+
+[[package]]
+name = "_88_合并两个有序数组"
 version = "0.1.0"
 
 [[package]]

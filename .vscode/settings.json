@@ -1,6 +1,7 @@
 {
     "rust-analyzer.linkedProjects": [
-        "./_94_二叉树的中序遍历/Cargo.toml"
+        "./_94_二叉树的中序遍历/Cargo.toml",
+        "./_83_删除排序链表中的重复元素/Cargo.toml"
     ],
     "debug.allowBreakpointsEverywhere": true
 }
