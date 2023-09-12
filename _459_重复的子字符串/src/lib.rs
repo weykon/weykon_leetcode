@@ -64,6 +64,7 @@ fn mark (s: String) -> bool {
             } else {
                 for (i, s) in save.iter_mut().enumerate().map(|(i, s)| (i, s)) {
                     {
+                        // https://course.rs/compiler/fight-with-compiler/borrowing/ref-exist-in-out-fn.html
                         if *s != b {
                             save.push(b);
                         } else {
