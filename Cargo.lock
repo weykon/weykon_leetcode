@@ -3,171 +3,11 @@
 version = 3
 
 [[package]]
-name = "_100_相同的树"
-version = "0.1.0"
-
-[[package]]
-name = "_101_对称二叉树"
-version = "0.1.0"
-
-[[package]]
-name = "_104_二叉树的最大深度"
-version = "0.1.0"
-
-[[package]]
-name = "_108_将有序数组转换为二叉搜索树"
-version = "0.1.0"
-
-[[package]]
-name = "_136_只出现一次的数字"
-version = "0.1.0"
-
-[[package]]
-name = "_13_罗马数字转整数"
-version = "0.1.0"
-
-[[package]]
-name = "_1528_重新排列字符串"
-version = "0.1.0"
-
-[[package]]
-name = "_15_三数之和"
-version = "0.1.0"
-
-[[package]]
-name = "_169_多数元素"
-version = "0.1.0"
-
-[[package]]
-name = "_17_电话号码的字母组合"
-version = "0.1.0"
-
-[[package]]
-name = "_195_第十行"
-version = "0.1.0"
-
-[[package]]
-name = "_1_两数之和"
-version = "0.1.0"
-
-[[package]]
-name = "_200_岛屿数量"
-version = "0.1.0"
-
-[[package]]
-name = "_20_有效的括号"
-version = "0.1.0"
-
-[[package]]
-name = "_21_合并两个有序链表"
-version = "0.1.0"
-
-[[package]]
-name = "_268_丢失的数字"
-version = "0.1.0"
-
-[[package]]
-name = "_26_删除有序数组中的重复项"
-version = "0.1.0"
-
-[[package]]
-name = "_283_移动零"
-version = "0.1.0"
-
-[[package]]
-name = "_292_Nim_游戏"
-version = "0.1.0"
-
-[[package]]
-name = "_344_反转字符串"
-version = "0.1.0"
-
-[[package]]
-name = "_3_无重复字符的最长子串"
-version = "0.1.0"
-
-[[package]]
-name = "_42_接雨水"
-version = "0.1.0"
-
-[[package]]
-name = "_441_排列硬币"
-version = "0.1.0"
-
-[[package]]
-name = "_448_找到所有数组中消失的数字"
-version = "0.1.0"
-
-[[package]]
-name = "_459_重复的子字符串"
-version = "0.1.0"
-
-[[package]]
-name = "_463_岛屿的周长"
-version = "0.1.0"
-
-[[package]]
-name = "_485_最大连续_1_的个数"
-version = "0.1.0"
-
-[[package]]
-name = "_557_反转字符串中的单词_III"
-version = "0.1.0"
-
-[[package]]
-name = "_561_数组拆分"
+name = "_217_存在重复元素"
 version = "0.1.0"
 
 [[package]]
 name = "_566_重塑矩阵"
-version = "0.1.0"
-
-[[package]]
-name = "_56_合并区间"
-version = "0.1.0"
-
-[[package]]
-name = "_58_最后一个单词的长度"
-version = "0.1.0"
-
-[[package]]
-name = "_66_加一"
-version = "0.1.0"
-
-[[package]]
-name = "_67_二进制求和"
-version = "0.1.0"
-
-[[package]]
-name = "_690_员工的重要性"
-version = "0.1.0"
-
-[[package]]
-name = "_69_x_的平方根"
-version = "0.1.0"
-
-[[package]]
-name = "_70_爬楼梯"
-version = "0.1.0"
-
-[[package]]
-name = "_83_删除排序链表中的重复元素"
-version = "0.1.0"
-
-[[package]]
-name = "_88_合并两个有序数组"
-version = "0.1.0"
-
-[[package]]
-name = "_94_二叉树的中序遍历"
-version = "0.1.0"
-
-[[package]]
-name = "_977_有序数组的平方"
-version = "0.1.0"
-
-[[package]]
-name = "_9_回文数"
 version = "0.1.0"
 
 [[package]]
@@ -206,10 +46,6 @@ name = "memchr"
 version = "2.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "2dffe52ecf27772e601905b7522cb4ef790d2cc203488bbd0e2fe85fcb74566d"
-
-[[package]]
-name = "mytest"
-version = "0.1.0"
 
 [[package]]
 name = "nom8"
@@ -343,7 +179,3 @@ dependencies = [
  "serde",
  "toml",
 ]
-
-[[package]]
-name = "算法模式"
-version = "0.1.0"
