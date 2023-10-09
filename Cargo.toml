@@ -1,7 +1,7 @@
 
 [workspace]
 members = [
-  "_125_验证回文串"
+  "_392_判断子序列"
 ]
 
 [package]

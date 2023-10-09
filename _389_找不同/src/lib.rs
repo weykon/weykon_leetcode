@@ -7,30 +7,7 @@ struct Solution;
 // @lc code=start
 impl Solution {
     pub fn find_the_difference(s: String, t: String) -> char {
-        use std::collections::HashMap;
-
-        let mut hm = HashMap::new();
-
-        for c in s.chars() {
-            if let Some(has) = hm.get_mut(&c) {
-                *has += 1;
-            } else {
-                hm.insert(c, 1);
-            }
-        }
-
-        for c in t.chars() {
-            if let Some(has) = hm.get_mut(&c) {
-                if *has - 1 == -1 {
-                    return c;
-                } else {
-                    *has -= 1;
-                }
-            } else {
-                return c;
-            }
-        }
-        return char::MAX;
+       
     }
 }
 // @lc code=end

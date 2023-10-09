@@ -3,7 +3,7 @@
 version = 3
 
 [[package]]
-name = "_125_验证回文串"
+name = "_392_判断子序列"
 version = "0.1.0"
 
 [[package]]
