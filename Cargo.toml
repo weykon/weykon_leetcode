@@ -1,7 +1,7 @@
 
 [workspace]
 members = [
-  "_392_判断子序列"
+  "_412_Fizz_Buzz"
 ]
 
 [package]

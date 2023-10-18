@@ -33,7 +33,6 @@ impl Solution {
                 ret.push(format!("{}->{}", pre, last));
             }
         }
-
         ret
     }
 }
