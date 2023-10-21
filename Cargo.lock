@@ -3,7 +3,7 @@
 version = 3
 
 [[package]]
-name = "_412_Fizz_Buzz"
+name = "_414_第三大的数"
 version = "0.1.0"
 
 [[package]]

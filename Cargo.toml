@@ -1,7 +1,7 @@
 
 [workspace]
 members = [
-  "_412_Fizz_Buzz"
+  "_414_第三大的数"
 ]
 
 [package]
