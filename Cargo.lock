@@ -3,7 +3,7 @@
 version = 3
 
 [[package]]
-name = "_414_第三大的数"
+name = "_374_猜数字大小"
 version = "0.1.0"
 
 [[package]]
