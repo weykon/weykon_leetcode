@@ -14,3 +14,22 @@ impl Solution {
     }
 }
 // @lc code=end
+
+// 复盘题目的原则
+// 1. 题目涉及到语言的特性应用
+// 2. 新的思维要求
+// 3. 数组数据操作和处理形式
+
+// 
+
+mod tests {
+    use crate::Solution;
+ 
+    #[test]
+    fn one () { 
+        assert_eq!(
+            Solution::count_segments("Hello, my name is John".to_owned()),
+            5 as i32
+        )
+    }
+}
